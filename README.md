@@ -8,7 +8,8 @@ E-commerce API
 - run 
 ```bash
 npm install 
-``` To install all dependencies
+``` 
+To install all dependencies
 
 You have to setup Postman to be able to test the API functionality
 
