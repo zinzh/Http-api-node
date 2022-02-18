@@ -5,7 +5,10 @@ E-commerce API
 # Installation
 
 - Clone repository 
-- run ```bash npm install ``` To install all dependencies
+- run 
+```bash
+npm install 
+``` To install all dependencies
 
 You have to setup Postman to be able to test the API functionality
 
