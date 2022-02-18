@@ -35,6 +35,7 @@ In the login and sign up requests, add
 ```javascript 
 if(pm.response.code === 200){
     pm.environment.set('authToken', pm.response.json().token)
-}```
+}
+```
 
 Set all the other routes authentication to inherit from parents
