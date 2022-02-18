@@ -35,7 +35,7 @@ Routes available :
 Setting global authentication in Postman:
 
 Collection settings, set type to "Bearer" and give the valiable a name, here ```{{authToken}}```
-In the login and sign up requests, add 
+In the login and sign up requests, in the "Test" field add 
 ```javascript 
 if(pm.response.code === 200){
     pm.environment.set('authToken', pm.response.json().token)
