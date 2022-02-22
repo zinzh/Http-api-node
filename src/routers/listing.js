@@ -242,7 +242,7 @@ router.post('/listing/:id/:reply', auth, async (req, res) => { //reply to a list
 
 router.get('/listing/:id/replies', async (req, res) => {
 
-    console.log('sex')
+    
     try {
         const isAuthenticated = await checkAuth.checkAuth(req, res)
 
